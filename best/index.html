@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>Document</title>
+</head>
+<style>
+    .video1{
+        transform: translate(-50%,0%);
+    }
+    .elem h1{
+        transition: all ease-in-out 0.5s;
+    }
+    .text-div h1:hover{
+        transform: translatey(-50%);
+        color: #EDBFFF;
+    }
+    .elem img{
+        transition: all ease-in-out 0.5s;
+    }
+    .elem:hover img{
+        opacity: 1;
+    }
+    .cursor{
+        transition: background-image ease 1s;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .purple{
+        display: none;
+        transition:  ease 1s;
+    }
+</style>
+<body>
+    <div class="cursor h-[1vw] w-[1vw] rounded-full fixed bg-[#EDBFFF] z-[8] mix-blend-difference"></div>
+    <div class="purple h-[100%] w-[100%] top-0 fixed bg-[#EDBFFF] z-[99] opacity-0 "></div>
+    <div class="main bg-[#0F0D0D] text-white cursor-none">
+        <div class="page1  w-[100%] min-h-[100vh] relative z-[9]">
+            <div class="nav z-[100] h-[5vw] w-[100%] px-[3vw]  flex items-center justify-between">
+                <img class="h-[2vw]" src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
+                alt="">
+                <div class="nav-part-2 flex justify-center  items-center gap-[1.5vw] uppercase font-extralight">
+                    <h4 class="underline">Home</h4>
+                    <h4>Work</h4>
+                    <h4>Studio</h4>
+                    <h4>Contact</h4>
+                </div>
+                <div class="nav-part3">
+                    <div class="circle h-[1.5vw] w-[1.5vw] rounded-full bg-white"></div>
+                </div>
+            </div>
+            <h1 class="text-[7vw] font-medium mt-[12vw] ml-[6vw]  ">Digitally crafted</h1>
+            <h2 class="text-[7vw] font-medium  ml-[25vw]">Branded experience</h2>
+            <video  src="back.mp4" autoplay loop class="video1 w-[60%] left-[50%] relative  mt-[8vw]"></video>
+        </div>
+        <div class="page2 relative z-[9] min-h-[80vh] w-[100%] py-[100px] px-[5vw] border-b-[4px] border-[black] ">
+            <h1 class="text-[7vw]  font-normal text-[black] ">We are Duo Studio,</h1>
+            <div class="page2-container h-[60vh] w-[100%] flex items-center justify-between ">
+                <div class="page2-left w-[36%] leading-[4vw]">
+                    <h2 class="text-[4vw] text-black font-light">A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRAND'S POTENTIAL</h2>
+                </div>
+                <div class="page2-right w-[24%]  ">
+                    <P class="text-[1vw]  text-black text-justify">We have together strategy and create a beautiful website for you to recreate this by your dreams to acheive all thigns. We take a highly personalized approach to delivering branding, web design, and content making marketing solutions. Born in the DC area - now serving clients worldwide. </P>
+                <button class="w-[100%] rounded-full text-black bg-[#EDBFFF] border-none mt-[1vh]">About us</button>
+                </div>
+            </div>
+        </div>
+        <div class="page3 min-h-[150vh] w-[100%] relative z-[9] ">
+            <h1 class="text-[6.8vw] ml-[5vw] font-extralight text-[#111]">Selected Works</h1>
+            <div class="p3p1 flex items-start justify-between">
+                <img class="h-[25vw] mt-[10vw]" src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+                alt="">
+               <video class="h-[20vw]" src="back.mp4" autoplay muted looped></video>
+            </div>
+            <div class="p3p1 flex flex-row-reverse items-start justify-between">
+                <img class="h-[25vw] " src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+                alt="">
+               <video class="h-[20vw] mt-[10vw]" src="back.mp4" autoplay muted looped></video>
+            </div>
+        </div>
+        <div class="page4 min-h-[100vh] w-[100%] relative  z-[9] p-[5vw] leading-[10vw]">
+            <div class="elem  text-[white] flex items-center justify-center relative">
+                <img class="absolute left-5 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+                    alt="">
+                <div class="text-div h-[160px] overflow-hidden">
+                    <h1 class="text-[7vw]">Strategy <br>Strategy</h1>
+                </div>
+                <img class="absolute right-10 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+                    alt="">
+            </div>
+            <div class="elem  text-[white] flex items-center justify-center relative">
+                <img class="absolute left-5 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+                alt="">
+            <div class="text-div h-[160px] overflow-hidden">
+                <h1 class="text-[7vw]">Identity <br>Identity</h1>
+            </div>
+            <img class="absolute right-10 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+                alt="">
+            </div>
+            <div class="elem  text-[white] flex items-center justify-center relative">
+                <img class="absolute left-0 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+                alt="">
+            <div class="text-div h-[160px] overflow-hidden">
+                <h1 class="text-[7vw]">Experience <br>Experience</h1>
+            </div>
+            <img class="absolute right-0 opacity-0" src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+                alt="">
+            </div>
+        </div>
+        <div class="page5 min-h-[100vh] w-[100%] relative z-[9]">
+            <h2 class="text-[4vw] font-medium uppercase px-[5vw]">Mentioed Clients</h2>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2021</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw]  border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2022</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2023</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2024</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2022</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1687913161653-7cddb0ba09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80">
+                <h3>Verizon</h3>
+                <h4>2021</h4>
+            </div>
+            <div class="box flex items-center justify-between h-[2vw] mx-[5vw] border-t-[0.1vw]  border-b-[0.1vw] py-[2vw] border-white" data-image="https://images.unsplash.com/photo-1686904423955-b928225c6488?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDg1fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+                <h3>Verizon</h3>
+                <h4>2023</h4>
+            </div>
+        </div>
+        <div class="footer h-[100vh] w-[100%] bg-[#EDBFFF]"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
